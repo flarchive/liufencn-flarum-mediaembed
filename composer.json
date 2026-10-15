@@ -1,0 +1,27 @@
+{
+    "name": "liufencn/flarum-mediaembed",
+    "description": "中文媒体站点嵌入：给 Flarum 的 s9e MediaEmbed 补上国内常用视频 / 音乐站点（B站、AcFun、腾讯视频、网易云音乐、西瓜视频），链接自动转为内嵌播放器",
+    "type": "flarum-extension",
+    "license": "AGPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Liufen",
+            "email": "792818521@qq.com",
+            "homepage": "https://bbs.cathi.cn"
+        }
+    ],
+    "require": {
+        "flarum/core": "^2.0.0"
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "媒体嵌入（中文站点）",
+            "category": "feature",
+            "icon": {
+                "name": "fas fa-photo-video",
+                "backgroundColor": "#276bb0",
+                "color": "#fff"
+            }
+        }
+    }
+}
